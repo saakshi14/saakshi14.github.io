@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Saakshi Wadhwa, PhD student at the University of Southern Queensland studying gravity-mode asteroseismology.">
-  <title>Saakshi Wadhwa · Asteroseismology</title>
+  <title>Saakshi Wadhwa</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,8 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="header">
     <a class="wordmark" href="#">Saakshi Wadhwa<span> / Asteroseismology</span></a>
-    <nav aria-label="Main navigation">
+    <nav aria-label="Main navigation" style="align-items:center">
+      <button id="theme" type="button">Switch to daylight</button>
       <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#cv">CV</a><a href="#beyond">Beyond research</a><a href="#contact">Contact</a>
     </nav>
   </header>
@@ -42,9 +43,9 @@
       <div class="section-body"><h3>Questions worth exploring.</h3><p class="placeholder">My research explores gravity-mode asteroseismology: studying stellar oscillations to learn about the interiors of stars.</p><div class="research-note"><span class="eyebrow">Research overview</span><p>Gravity-mode asteroseismology · Stellar oscillations · Stellar interiors</p></div></div>
     </section>
     <section class="playground" aria-labelledby="play-title">
-      <div><p class="eyebrow">A little stellar curiosity</p><h2 id="play-title">Stars have patterns.</h2><p>Play with the pattern and watch different regions change colour.</p><p class="small">A simplified illustration of an oscillation pattern — not a view of a real star.</p></div>
+      <div><p class="eyebrow">A little stellar curiosity</p><h2 id="play-title">Explore stellar oscillations.</h2><p>Adjust the sliders to watch different oscillation patterns.</p></div>
       <canvas id="wave" aria-label="Fixed stellar disk showing an axisymmetric spherical-harmonic scalar pattern" role="img"></canvas>
-      <div class="controls"><label>Pattern detail <output id="pattern-value">2</output><input id="pattern" type="range" min="1" max="6" value="2"></label><label>Animation speed <output id="speed-value">1</output><input id="speed" type="range" min="0.2" max="2" step="0.1" value="1"></label><button id="pause" type="button">Pause animation</button><button id="theme" type="button">Switch to daylight</button></div>
+      <div class="controls"><label>Spherical harmonic degree ℓ <output id="pattern-value">2</output><input id="pattern" type="range" min="1" max="6" value="2"></label><label>Animation speed <output id="speed-value">1</output><input id="speed" type="range" min="0.2" max="2" step="0.1" value="1"></label><button id="pause" type="button">Pause animation</button></div>
 
     </section>
     <section class="section" id="publications">
