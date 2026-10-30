@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Saakshi Wadhwa, PhD student at the University of Southern Queensland studying gravity-mode asteroseismology.">
+  <title>Saakshi Wadhwa · Asteroseismology</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <a class="wordmark" href="#">Saakshi Wadhwa<span> / Asteroseismology</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#cv">CV</a><a href="#beyond">Beyond research</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="intro">
+      <div>
+        <p class="eyebrow">University of Southern Queensland · PhD student</p>
+        <h1 id="intro">Hello, I’m<br><em>Saakshi.</em></h1>
+        <p class="intro">Listening to the rhythms of stars.</p>
+        <p class="draft">I study starquakes. Sounds fascinating? Explore my research to find out more.</p>
+        <a class="button" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <figure class="radial-star-figure">
+        <div class="radial-star-space" role="img" aria-label="Illustration of a radial pulsation: a spherical star expands and contracts uniformly.">
+          <div class="radial-star"></div>
+        </div>
+        <figcaption>A simple radial pulsation · Motion exaggerated</figcaption>
+      </figure>
+    </section>
+    <section class="section" id="about">
+      <div class="section-label"><span>01</span><h2>About</h2></div>
+      <div class="section-body"><h3>The person behind the research.</h3><p class="placeholder">I’m Saakshi Wadhwa, a PhD student at the University of Southern Queensland. My research focuses on gravity-mode asteroseismology.</p><p class="small">Welcome to my corner of the cosmos.</p></div>
+    </section>
+    <section class="section" id="research">
+      <div class="section-label"><span>02</span><h2>Research</h2></div>
+      <div class="section-body"><h3>Questions worth exploring.</h3><p class="placeholder">My research explores gravity-mode asteroseismology: studying stellar oscillations to learn about the interiors of stars.</p><div class="research-note"><span class="eyebrow">Research overview</span><p>Gravity-mode asteroseismology · Stellar oscillations · Stellar interiors</p></div></div>
+    </section>
+    <section class="playground" aria-labelledby="play-title">
+      <div><p class="eyebrow">A little stellar curiosity</p><h2 id="play-title">Stars have patterns.</h2><p>Play with the pattern and watch different regions change colour.</p><p class="small">A simplified illustration of an oscillation pattern — not a view of a real star.</p></div>
+      <canvas id="wave" aria-label="Fixed stellar disk showing an axisymmetric spherical-harmonic scalar pattern" role="img"></canvas>
+      <div class="controls"><label>Pattern detail <output id="pattern-value">2</output><input id="pattern" type="range" min="1" max="6" value="2"></label><label>Animation speed <output id="speed-value">1</output><input id="speed" type="range" min="0.2" max="2" step="0.1" value="1"></label><button id="pause" type="button">Pause animation</button><button id="theme" type="button">Switch to daylight</button></div>
+
+    </section>
+    <section class="section" id="publications">
+      <div class="section-label"><span>03</span><h2>Publications</h2></div>
+      <div class="section-body"><h3>Selected work.</h3><article class="publication"><p class="eyebrow">Accepted in Astronomy &amp; Astrophysics</p><h4>Asteroseismic properties of young pulsators in the Perseus Molecular Cloud. Discovery of period-spacing patterns in HD 281229</h4><p class="authors"><strong>Saakshi Wadhwa</strong>, Dario J. Fritzewski, Gang Li &amp; Simon J. Murphy</p><p class="small">Accepted for publication · Public version forthcoming</p></article><article class="publication"><p class="eyebrow">2026 · Accepted in ApJS</p><h4><a href="https://arxiv.org/abs/2610.25944">Gravity-mode main-sequence asteroseismology of 16 open clusters and associations</a></h4><p class="authors">Gang Li, Haotian Wang, Anuj Gautam, J. S. G. Mombarg, Simon J. Murphy, Mara Bernizzoni, Mingjie Jian, <strong>Saakshi Wadhwa</strong>, Dario J. Fritzewski, Facundo D. Moyano, Prasad Mani, Chenyuan Li, Timothy R. Bedding &amp; Conny Aerts</p><a class="paper-link" href="https://arxiv.org/abs/2610.25944">Read preprint on arXiv ↗</a></article></div>
+    </section>
+    <section class="section" id="cv">
+      <div class="section-label"><span>04</span><h2>Curriculum vitae</h2></div>
+      <div class="section-body"><h3>Experience & education.</h3><div class="education"><p><strong>PhD in Asteroseismology</strong><br>University of Southern Queensland · 2026–present<br><span class="small">Supervisors: Dr. Gang Li and Associate Professor Simon J. Murphy</span></p><p><strong>Master’s in Astronomy and Astrophysics</strong><br>KU Leuven · 2023–2025</p><p><strong>BSc in Physics</strong><br>Fergusson College · 2020–2023</p></div><a class="button" href="cv.pdf" download="Saakshi_Wadhwa_CV_2026.pdf">Download my CV (PDF) <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section class="section" id="beyond">
+      <div class="section-label"><span>05</span><h2>Beyond research</h2></div>
+      <div class="section-body"><p class="eyebrow">A little more down to Earth</p><h3>Off-duty, still curious.</h3><p>When I’m not analysing the pulsations of stars, you’ll find me building LEGO sets, exploring the world, or trying something new — even if I’m terrible at it.</p><p>And occasionally having nightmares about spiders. Because, duh, I live in Australia.</p>
+
+      </div>
+    </section>
+    <section class="section contact" id="contact">
+      <div class="section-label"><span>06</span><h2>Contact</h2></div>
+      <div class="section-body"><h3>Let’s connect.</h3><p>Interested in research or saying hello? Get in touch.</p><p><a class="text-link" href="https://www.linkedin.com/in/saakshiwadhwa">LinkedIn ↗</a></p><p><a class="email" href="mailto:saakshi.wadhwa@unisq.edu.au">saakshi.wadhwa@unisq.edu.au</a></p></div>
+    </section>
+  </main>
+  <footer><span>Saakshi Wadhwa</span><span>Made of curiosity & a little stardust</span><a href="#">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
